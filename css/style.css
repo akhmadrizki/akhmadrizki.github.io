@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url(../img/primakara.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 424px;
+  padding: 20px;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+}
+
+.success-color-custom {
+  background-color: #38c172;
+  border-color: #38c172;
+}
+
+.custom-form {
+  background-color: transparent !important;
+  border: none;
+  box-shadow: transparent !important;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  outline: none;
+  outline-color: transparent;
+}
+
+.custom-form:focus {
+  box-shadow: none;
+}
